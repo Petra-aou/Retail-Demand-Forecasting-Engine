@@ -2,8 +2,9 @@
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org)
 [![Machine Learning](https://img.shields.io/badge/Framework-LightGBM-green.svg)](https://lightgbm.readthedocs.io/)
-[![Statistical-Science](https://img.shields.io/badge/Methodology-Time--Series%20Diagnostics-orange.svg)]()
+[![Notebook Viewer](https://img.shields.io/badge/Render-Jupyter%20Nbviewer-orange.svg)](https://nbviewer.org/github/Petra-aou/Retail-Demand-Forecasting-Engine/blob/main/retail_demand_forecasting.ipynb)
 
+An end-to-end scalable machine learning and automated ETL pipeline engineered to forecast large-scale, high-dimensional retail demand across multi-million-row transactional datasets.
 An end-to-end scalable machine learning and automated ETL pipeline engineered to forecast large-scale, high-dimensional retail demand across multi-million-row transactional datasets.
 
 ## Project Architecture & Methodology
