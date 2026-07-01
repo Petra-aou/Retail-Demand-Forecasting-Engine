@@ -16,7 +16,7 @@ An end-to-end scalable machine learning and automated ETL pipeline engineered to
 * **Stationarity Analysis:** Deployed Augmented Dickey-Fuller (**ADF**) statistical tests to detect non-stationarity (P-Value approximately 0.0897). 
 * **Temporal Dependency:** Utilized Auto-Correlation (**ACF**) and Partial Auto-Correlation (**PACF**) diagnostics to isolate Lag-0 operational artifacts and capture rigid 7-day cyclical seasonality.
 * **Target Stabilization:** Implemented a logarithmic target transformation ln(y + 1) to structurally stabilize variances across long-tailed SKU sales distributions, mitigating Root Mean Squared Logarithmic Error (RMSLE) penalties.
-* **Feature Matrix:** Constructed multi-granularity cross-week lag vectors (Lag 14/17/23) to train temporal momentum.
+* **Feature Matrix:** Constructed multi-granularity cross-week lag vectors (Lag 16/17/23) to train temporal momentum.
 
 ### 3. Predictive Modeling & Scaling via LightGBM
 * Deployed a high-performance **LightGBM Regressor** using native categorical encoding to completely bypass traditional high-dimensional One-Hot memory bottlenecks.
