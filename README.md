@@ -13,9 +13,9 @@ An end-to-end scalable machine learning and automated ETL pipeline engineered to
 * Resolved missing warehouse transactional timestamps using customized statistical imputation, enhancing real-time localized tracking inventory alignment.
 
 ### 2. Time-Series Diagnostics & Feature Engineering
-* **Stationarity Analysis:** Deployed Augmented Dickey-Fuller (**ADF**) statistical tests to detect non-stationarity ($p\text{-value} \approx 0.0897$). 
+* **Stationarity Analysis:** Deployed Augmented Dickey-Fuller (**ADF**) statistical tests to detect non-stationarity (P-Value approximately 0.0897). 
 * **Temporal Dependency:** Utilized Auto-Correlation (**ACF**) and Partial Auto-Correlation (**PACF**) diagnostics to isolate Lag-0 operational artifacts and capture rigid 7-day cyclical seasonality.
-* **Target Stabilization:** Implemented a logarithmic target transformation $\ln(y + 1)$ to structurally stabilize variances across long-tailed SKU sales distributions, mitigating Root Mean Squared Logarithmic Error (RMSLE) penalties.
+* **Target Stabilization:** Implemented a logarithmic target transformation ln(y + 1) to structurally stabilize variances across long-tailed SKU sales distributions, mitigating Root Mean Squared Logarithmic Error (RMSLE) penalties.
 * **Feature Matrix:** Constructed multi-granularity cross-week lag vectors (Lag 14/17/23) to train temporal momentum.
 
 ### 3. Predictive Modeling & Scaling via LightGBM
